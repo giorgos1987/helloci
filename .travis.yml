@@ -10,8 +10,7 @@ before_deploy:
 
 deploy:
   provider: releases
-  api_key: 
-   secure:
+  api_key: 531ec678a481842ab826959e240920451b155cba
   file: target/helloci-1.0-SNAPSHOT.jar
   on:
     repo: giorgos1987/helloci
